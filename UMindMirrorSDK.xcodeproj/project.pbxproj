@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E26A8722A622E48008A983C /* EGSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26A8712A622E48008A983C /* EGSBaseViewController.m */; };
+		6E26A8752A622E83008A983C /* EGSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26A8742A622E83008A983C /* EGSNavigationController.m */; };
+		6E26A8782A623430008A983C /* EGSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26A8772A623430008A983C /* EGSTool.m */; };
+		6E26A87B2A623ECC008A983C /* EGSLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26A87A2A623ECC008A983C /* EGSLineView.m */; };
+		6E26A87E2A624030008A983C /* UIView+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26A87D2A624030008A983C /* UIView+Helpers.m */; };
+		6E26A8822A62473F008A983C /* EGSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26A8812A62473F008A983C /* EGSAlertView.m */; };
+		6E26A8852A627C6D008A983C /* EGSBleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26A8842A627C6D008A983C /* EGSBleConfig.m */; };
+		6E3FB6C82A60E01400EC4DC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FB6C72A60E01400EC4DC5 /* AppDelegate.m */; };
+		6E3FB6D32A60E01700EC4DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3FB6D22A60E01700EC4DC5 /* Assets.xcassets */; };
+		6E3FB6D62A60E01700EC4DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3FB6D42A60E01700EC4DC5 /* LaunchScreen.storyboard */; };
+		6E3FB6D92A60E01700EC4DC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FB6D82A60E01700EC4DC5 /* main.m */; };
+		6E3FB6EE2A60E0C300EC4DC5 /* CBPeripheral+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FB6ED2A60E0B700EC4DC5 /* CBPeripheral+Property.m */; };
+		6E3FB6EF2A60E0C600EC4DC5 /* CBPeripheral+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FB6E82A60E0B600EC4DC5 /* CBPeripheral+UUID.m */; };
+		6E3FB6F02A60E0C800EC4DC5 /* EGSBatchOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FB6EA2A60E0B600EC4DC5 /* EGSBatchOrder.m */; };
+		6E3FB6F12A60E0CB00EC4DC5 /* EGSSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FB6E72A60E09C00EC4DC5 /* EGSSDKManager.m */; };
+		6E3FB6F22A60E0CD00EC4DC5 /* EGSControlOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FB6E32A60E09100EC4DC5 /* EGSControlOrder.m */; };
+		6E3FB6F32A60E0D000EC4DC5 /* EGSSDKHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FB6E12A60E08A00EC4DC5 /* EGSSDKHelper.m */; };
+		6E3FB6F72A60E0E600EC4DC5 /* EGSBLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FB6F42A60E0E500EC4DC5 /* EGSBLEManager.m */; };
+		6E3FB6FB2A60E0FB00EC4DC5 /* EGSmartDataParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FB6F92A60E0FB00EC4DC5 /* EGSmartDataParser.mm */; };
+		6E8690082A6139E20001EF68 /* EGSShowDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8690062A6139E20001EF68 /* EGSShowDataViewController.m */; };
+		6E8690092A6139E20001EF68 /* EGSShowDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E8690072A6139E20001EF68 /* EGSShowDataViewController.xib */; };
+		6E86900D2A614D910001EF68 /* EGSConnectBleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E86900B2A614D910001EF68 /* EGSConnectBleViewController.m */; };
+		6E86900E2A614D910001EF68 /* EGSConnectBleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E86900C2A614D910001EF68 /* EGSConnectBleViewController.xib */; };
+		D46973EFC4E0B0BD60E0CD41 /* Pods_UMindMirrorSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCFB5FCC241A5834AC7DF38 /* Pods_UMindMirrorSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		618457BCDFE63A1A00A69C6E /* Pods-UMindMirrorSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMindMirrorSDK.debug.xcconfig"; path = "Target Support Files/Pods-UMindMirrorSDK/Pods-UMindMirrorSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		6E26A8702A622E48008A983C /* EGSBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGSBaseViewController.h; sourceTree = "<group>"; };
+		6E26A8712A622E48008A983C /* EGSBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGSBaseViewController.m; sourceTree = "<group>"; };
+		6E26A8732A622E83008A983C /* EGSNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGSNavigationController.h; sourceTree = "<group>"; };
+		6E26A8742A622E83008A983C /* EGSNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGSNavigationController.m; sourceTree = "<group>"; };
+		6E26A8762A623430008A983C /* EGSTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGSTool.h; sourceTree = "<group>"; };
+		6E26A8772A623430008A983C /* EGSTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGSTool.m; sourceTree = "<group>"; };
+		6E26A8792A623ECC008A983C /* EGSLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGSLineView.h; sourceTree = "<group>"; };
+		6E26A87A2A623ECC008A983C /* EGSLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGSLineView.m; sourceTree = "<group>"; };
+		6E26A87C2A62402F008A983C /* UIView+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helpers.h"; sourceTree = "<group>"; };
+		6E26A87D2A624030008A983C /* UIView+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helpers.m"; sourceTree = "<group>"; };
+		6E26A87F2A62408B008A983C /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		6E26A8802A62473F008A983C /* EGSAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGSAlertView.h; sourceTree = "<group>"; };
+		6E26A8812A62473F008A983C /* EGSAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGSAlertView.m; sourceTree = "<group>"; };
+		6E26A8832A627C6D008A983C /* EGSBleConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGSBleConfig.h; sourceTree = "<group>"; };
+		6E26A8842A627C6D008A983C /* EGSBleConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGSBleConfig.m; sourceTree = "<group>"; };
+		6E3FB6C32A60E01400EC4DC5 /* UMindMirrorSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMindMirrorSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3FB6C62A60E01400EC4DC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E3FB6C72A60E01400EC4DC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E3FB6D22A60E01700EC4DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E3FB6D52A60E01700EC4DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E3FB6D72A60E01700EC4DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3FB6D82A60E01700EC4DC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E3FB6E12A60E08A00EC4DC5 /* EGSSDKHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGSSDKHelper.m; sourceTree = "<group>"; };
+		6E3FB6E22A60E08A00EC4DC5 /* EGSSDKHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGSSDKHelper.h; sourceTree = "<group>"; };
+		6E3FB6E32A60E09100EC4DC5 /* EGSControlOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGSControlOrder.m; sourceTree = "<group>"; };
+		6E3FB6E42A60E09100EC4DC5 /* EGSControlOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGSControlOrder.h; sourceTree = "<group>"; };
+		6E3FB6E52A60E09100EC4DC5 /* EGSAnalysisProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGSAnalysisProtocol.h; sourceTree = "<group>"; };
+		6E3FB6E62A60E09B00EC4DC5 /* EGSSDKManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGSSDKManager.h; sourceTree = "<group>"; };
+		6E3FB6E72A60E09C00EC4DC5 /* EGSSDKManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGSSDKManager.m; sourceTree = "<group>"; };
+		6E3FB6E82A60E0B600EC4DC5 /* CBPeripheral+UUID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+UUID.m"; sourceTree = "<group>"; };
+		6E3FB6E92A60E0B600EC4DC5 /* CBPeripheral+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+Property.h"; sourceTree = "<group>"; };
+		6E3FB6EA2A60E0B600EC4DC5 /* EGSBatchOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGSBatchOrder.m; sourceTree = "<group>"; };
+		6E3FB6EB2A60E0B700EC4DC5 /* CBPeripheral+UUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+UUID.h"; sourceTree = "<group>"; };
+		6E3FB6EC2A60E0B700EC4DC5 /* EGSBatchOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGSBatchOrder.h; sourceTree = "<group>"; };
+		6E3FB6ED2A60E0B700EC4DC5 /* CBPeripheral+Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+Property.m"; sourceTree = "<group>"; };
+		6E3FB6F42A60E0E500EC4DC5 /* EGSBLEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGSBLEManager.m; sourceTree = "<group>"; };
+		6E3FB6F52A60E0E500EC4DC5 /* EGSBLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGSBLEManager.h; sourceTree = "<group>"; };
+		6E3FB6F62A60E0E500EC4DC5 /* EGSBLEManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGSBLEManagerDelegate.h; sourceTree = "<group>"; };
+		6E3FB6F82A60E0FB00EC4DC5 /* EGSmartDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGSmartDataParser.h; sourceTree = "<group>"; };
+		6E3FB6F92A60E0FB00EC4DC5 /* EGSmartDataParser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EGSmartDataParser.mm; sourceTree = "<group>"; };
+		6E3FB6FC2A60E1B100EC4DC5 /* EGSBLEDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGSBLEDefines.h; sourceTree = "<group>"; };
+		6E8690052A6139E20001EF68 /* EGSShowDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGSShowDataViewController.h; sourceTree = "<group>"; };
+		6E8690062A6139E20001EF68 /* EGSShowDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGSShowDataViewController.m; sourceTree = "<group>"; };
+		6E8690072A6139E20001EF68 /* EGSShowDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EGSShowDataViewController.xib; sourceTree = "<group>"; };
+		6E86900A2A614D910001EF68 /* EGSConnectBleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGSConnectBleViewController.h; sourceTree = "<group>"; };
+		6E86900B2A614D910001EF68 /* EGSConnectBleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGSConnectBleViewController.m; sourceTree = "<group>"; };
+		6E86900C2A614D910001EF68 /* EGSConnectBleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EGSConnectBleViewController.xib; sourceTree = "<group>"; };
+		ABCFB5FCC241A5834AC7DF38 /* Pods_UMindMirrorSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMindMirrorSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2A9E8F9F40C97E4B8450AA /* Pods-UMindMirrorSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMindMirrorSDK.release.xcconfig"; path = "Target Support Files/Pods-UMindMirrorSDK/Pods-UMindMirrorSDK.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E3FB6C02A60E01400EC4DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46973EFC4E0B0BD60E0CD41 /* Pods_UMindMirrorSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D464E46BAF42ADA1B1AE082 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				618457BCDFE63A1A00A69C6E /* Pods-UMindMirrorSDK.debug.xcconfig */,
+				BE2A9E8F9F40C97E4B8450AA /* Pods-UMindMirrorSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5D29D2D6E1A0AA97EA74EDA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFB5FCC241A5834AC7DF38 /* Pods_UMindMirrorSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E26A86F2A622E2B008A983C /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				6E26A8702A622E48008A983C /* EGSBaseViewController.h */,
+				6E26A8712A622E48008A983C /* EGSBaseViewController.m */,
+				6E26A8732A622E83008A983C /* EGSNavigationController.h */,
+				6E26A8742A622E83008A983C /* EGSNavigationController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		6E3FB6BA2A60E01400EC4DC5 = {
+			isa = PBXGroup;
+			children = (
+				6E3FB6DF2A60E04800EC4DC5 /* UMindMirror-Bluetooth */,
+				6E3FB6C52A60E01400EC4DC5 /* UMindMirrorSDK */,
+				6E3FB6C42A60E01400EC4DC5 /* Products */,
+				0D464E46BAF42ADA1B1AE082 /* Pods */,
+				5D29D2D6E1A0AA97EA74EDA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E3FB6C42A60E01400EC4DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E3FB6C32A60E01400EC4DC5 /* UMindMirrorSDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E3FB6C52A60E01400EC4DC5 /* UMindMirrorSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6E26A86F2A622E2B008A983C /* BaseClass */,
+				6E3FB6C62A60E01400EC4DC5 /* AppDelegate.h */,
+				6E3FB6C72A60E01400EC4DC5 /* AppDelegate.m */,
+				6E8690052A6139E20001EF68 /* EGSShowDataViewController.h */,
+				6E8690062A6139E20001EF68 /* EGSShowDataViewController.m */,
+				6E8690072A6139E20001EF68 /* EGSShowDataViewController.xib */,
+				6E86900A2A614D910001EF68 /* EGSConnectBleViewController.h */,
+				6E86900B2A614D910001EF68 /* EGSConnectBleViewController.m */,
+				6E86900C2A614D910001EF68 /* EGSConnectBleViewController.xib */,
+				6E26A8792A623ECC008A983C /* EGSLineView.h */,
+				6E26A87A2A623ECC008A983C /* EGSLineView.m */,
+				6E26A87C2A62402F008A983C /* UIView+Helpers.h */,
+				6E26A87D2A624030008A983C /* UIView+Helpers.m */,
+				6E26A8802A62473F008A983C /* EGSAlertView.h */,
+				6E26A8812A62473F008A983C /* EGSAlertView.m */,
+				6E26A87F2A62408B008A983C /* Macro.h */,
+				6E26A8762A623430008A983C /* EGSTool.h */,
+				6E26A8772A623430008A983C /* EGSTool.m */,
+				6E3FB6D22A60E01700EC4DC5 /* Assets.xcassets */,
+				6E3FB6D42A60E01700EC4DC5 /* LaunchScreen.storyboard */,
+				6E3FB6D72A60E01700EC4DC5 /* Info.plist */,
+				6E3FB6D82A60E01700EC4DC5 /* main.m */,
+			);
+			path = UMindMirrorSDK;
+			sourceTree = "<group>";
+		};
+		6E3FB6DF2A60E04800EC4DC5 /* UMindMirror-Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				6E3FB6FD2A60E24A00EC4DC5 /* Category */,
+				6E3FB6FC2A60E1B100EC4DC5 /* EGSBLEDefines.h */,
+				6E3FB6EC2A60E0B700EC4DC5 /* EGSBatchOrder.h */,
+				6E3FB6EA2A60E0B600EC4DC5 /* EGSBatchOrder.m */,
+				6E26A8832A627C6D008A983C /* EGSBleConfig.h */,
+				6E26A8842A627C6D008A983C /* EGSBleConfig.m */,
+				6E3FB6F62A60E0E500EC4DC5 /* EGSBLEManagerDelegate.h */,
+				6E3FB6E62A60E09B00EC4DC5 /* EGSSDKManager.h */,
+				6E3FB6E72A60E09C00EC4DC5 /* EGSSDKManager.m */,
+				6E3FB6E42A60E09100EC4DC5 /* EGSControlOrder.h */,
+				6E3FB6E32A60E09100EC4DC5 /* EGSControlOrder.m */,
+				6E3FB6E22A60E08A00EC4DC5 /* EGSSDKHelper.h */,
+				6E3FB6E12A60E08A00EC4DC5 /* EGSSDKHelper.m */,
+				6E3FB6F52A60E0E500EC4DC5 /* EGSBLEManager.h */,
+				6E3FB6F42A60E0E500EC4DC5 /* EGSBLEManager.m */,
+				6E3FB6E52A60E09100EC4DC5 /* EGSAnalysisProtocol.h */,
+				6E3FB6F82A60E0FB00EC4DC5 /* EGSmartDataParser.h */,
+				6E3FB6F92A60E0FB00EC4DC5 /* EGSmartDataParser.mm */,
+			);
+			path = "UMindMirror-Bluetooth";
+			sourceTree = "<group>";
+		};
+		6E3FB6FD2A60E24A00EC4DC5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6E3FB6E92A60E0B600EC4DC5 /* CBPeripheral+Property.h */,
+				6E3FB6ED2A60E0B700EC4DC5 /* CBPeripheral+Property.m */,
+				6E3FB6EB2A60E0B700EC4DC5 /* CBPeripheral+UUID.h */,
+				6E3FB6E82A60E0B600EC4DC5 /* CBPeripheral+UUID.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E3FB6C22A60E01400EC4DC5 /* UMindMirrorSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3FB6DC2A60E01700EC4DC5 /* Build configuration list for PBXNativeTarget "UMindMirrorSDK" */;
+			buildPhases = (
+				39EEC78CB65DB1425189BDA7 /* [CP] Check Pods Manifest.lock */,
+				6E3FB6BF2A60E01400EC4DC5 /* Sources */,
+				6E3FB6C02A60E01400EC4DC5 /* Frameworks */,
+				6E3FB6C12A60E01400EC4DC5 /* Resources */,
+				E30B386B4B1CDD1C8877A345 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMindMirrorSDK;
+			productName = UMindMirrorSDK;
+			productReference = 6E3FB6C32A60E01400EC4DC5 /* UMindMirrorSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E3FB6BB2A60E01400EC4DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6E3FB6C22A60E01400EC4DC5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 6E3FB6BE2A60E01400EC4DC5 /* Build configuration list for PBXProject "UMindMirrorSDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E3FB6BA2A60E01400EC4DC5;
+			productRefGroup = 6E3FB6C42A60E01400EC4DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E3FB6C22A60E01400EC4DC5 /* UMindMirrorSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E3FB6C12A60E01400EC4DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3FB6D62A60E01700EC4DC5 /* LaunchScreen.storyboard in Resources */,
+				6E8690092A6139E20001EF68 /* EGSShowDataViewController.xib in Resources */,
+				6E3FB6D32A60E01700EC4DC5 /* Assets.xcassets in Resources */,
+				6E86900E2A614D910001EF68 /* EGSConnectBleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39EEC78CB65DB1425189BDA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UMindMirrorSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E30B386B4B1CDD1C8877A345 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMindMirrorSDK/Pods-UMindMirrorSDK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMindMirrorSDK/Pods-UMindMirrorSDK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UMindMirrorSDK/Pods-UMindMirrorSDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E3FB6BF2A60E01400EC4DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3FB6F22A60E0CD00EC4DC5 /* EGSControlOrder.m in Sources */,
+				6E26A8782A623430008A983C /* EGSTool.m in Sources */,
+				6E26A8852A627C6D008A983C /* EGSBleConfig.m in Sources */,
+				6E3FB6C82A60E01400EC4DC5 /* AppDelegate.m in Sources */,
+				6E3FB6EE2A60E0C300EC4DC5 /* CBPeripheral+Property.m in Sources */,
+				6E8690082A6139E20001EF68 /* EGSShowDataViewController.m in Sources */,
+				6E3FB6F72A60E0E600EC4DC5 /* EGSBLEManager.m in Sources */,
+				6E3FB6F32A60E0D000EC4DC5 /* EGSSDKHelper.m in Sources */,
+				6E3FB6FB2A60E0FB00EC4DC5 /* EGSmartDataParser.mm in Sources */,
+				6E86900D2A614D910001EF68 /* EGSConnectBleViewController.m in Sources */,
+				6E26A8822A62473F008A983C /* EGSAlertView.m in Sources */,
+				6E3FB6EF2A60E0C600EC4DC5 /* CBPeripheral+UUID.m in Sources */,
+				6E26A87B2A623ECC008A983C /* EGSLineView.m in Sources */,
+				6E26A87E2A624030008A983C /* UIView+Helpers.m in Sources */,
+				6E3FB6D92A60E01700EC4DC5 /* main.m in Sources */,
+				6E26A8722A622E48008A983C /* EGSBaseViewController.m in Sources */,
+				6E3FB6F12A60E0CB00EC4DC5 /* EGSSDKManager.m in Sources */,
+				6E3FB6F02A60E0C800EC4DC5 /* EGSBatchOrder.m in Sources */,
+				6E26A8752A622E83008A983C /* EGSNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E3FB6D42A60E01700EC4DC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3FB6D52A60E01700EC4DC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E3FB6DA2A60E01700EC4DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E3FB6DB2A60E01700EC4DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E3FB6DD2A60E01700EC4DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 618457BCDFE63A1A00A69C6E /* Pods-UMindMirrorSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NVNN92W5Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UMindMirrorSDK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yRui.UMindMirrorSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E3FB6DE2A60E01700EC4DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE2A9E8F9F40C97E4B8450AA /* Pods-UMindMirrorSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NVNN92W5Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UMindMirrorSDK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yRui.UMindMirrorSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E3FB6BE2A60E01400EC4DC5 /* Build configuration list for PBXProject "UMindMirrorSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3FB6DA2A60E01700EC4DC5 /* Debug */,
+				6E3FB6DB2A60E01700EC4DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3FB6DC2A60E01700EC4DC5 /* Build configuration list for PBXNativeTarget "UMindMirrorSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3FB6DD2A60E01700EC4DC5 /* Debug */,
+				6E3FB6DE2A60E01700EC4DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E3FB6BB2A60E01400EC4DC5 /* Project object */;
+}
